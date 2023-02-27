@@ -11,4 +11,4 @@ requirements-check:
   dependency-docker:
     check-command: docker --version
     info: docker is not installed
-command: docker-compose up -d --wait; terraform init; terraform validate; terraform plan; terraform apply -auto-approve
+command: docker compose up -d --wait; terraform init; terraform validate; terraform plan; terraform apply -auto-approve
