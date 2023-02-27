@@ -1,0 +1,14 @@
+name: terraform-localstack-deploy-task
+description: Terraform LocalStack Deploy Task
+supported-os:
+- windows
+- linux
+- mac
+requirements-check:
+  dependency-terraform:
+    check-command: terraform --version
+    info: terraform is not installed
+  dependency-docker:
+    check-command: docker --version
+    info: docker is not installed
+command: docker-compose up -d --wait; terraform init; terraform validate; terraform plan; terraform apply -auto-approve

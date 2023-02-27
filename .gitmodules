@@ -1,0 +1,9 @@
+[submodule "aws-sqs-queue-plugin"]
+	path = aws-sqs-queue-plugin
+	url = https://github.com/alenvieirazup/aws-sqs-queue-plugin
+[submodule "localstack-provider-plugin"]
+	path = localstack-provider-plugin
+	url = https://github.com/alenvieirazup/localstack-provider-plugin
+[submodule "base-terraform-aws-sample-template"]
+	path = base-terraform-aws-sample-template
+	url = https://github.com/alenvieirazup/base-terraform-aws-sample-template

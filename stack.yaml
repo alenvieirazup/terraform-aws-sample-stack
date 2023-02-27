@@ -1,0 +1,15 @@
+description: Terraform AWS sample
+name: terraform-aws-sample-stack
+display-name: terraform-aws-sample-stack
+picture: stack.png
+category: backend # Ref: https://docs.stackspot.com/docs/create-stacks/yaml-files/plugin/#category
+compatibility: # Put a list of technologies compatible with the stack
+  - terraform
+  - aws
+technologies: # Ref: https://docs.stackspot.com/docs/create-stacks/yaml-files/yaml/#technologies 
+  - terraform 
+about: docs/about.md
+use-cases:
+  - title: Use Case Title
+    content: docs/use-case.md
+    stackfile: stackfiles/default.yaml

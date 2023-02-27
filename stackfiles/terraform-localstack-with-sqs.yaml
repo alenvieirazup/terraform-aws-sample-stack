@@ -1,0 +1,8 @@
+type: app
+description: Project Terraform in LocalStack with SQS
+template: terraform-aws-sample-stack/base-terraform-aws-sample-template
+plugins:
+  - plugin: terraform-aws-sample-stack/localstack-provider-plugin
+  - plugin: terraform-aws-sample-stack/aws-sqs-queue-plugin
+    inputs:
+      sqs_name: sqs_sample
